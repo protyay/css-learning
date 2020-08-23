@@ -1,34 +1,69 @@
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>TailWind Blog Sample</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.7.3/tailwind.min.css" class="rel">
-</head>
-<body class="bg-gray-100">
-  <div class="max-w-full px-20 py-16 mx-auto">
-  	<header class=" flex justify-between">
-  <h1 class="text-4xl sm:text-5xl font-normal text-blue-500 leading-6 hover:font-medium"> ProtyayBRants
-  </h1>
-  
-  <h2 class="md:text-xl text-gray-500 hover:text-gray-700 leading-6 font-medium"> About </h2>
- </header>
-  </div>
-
-
-  <main>
-    <section>
-      
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TailWind Blog Sample</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.7.3/tailwind.min.css" class="rel">
+  </head>
+  <body class="antialiased">
+    <div class="max-w-full px-20 py-16 mx-auto">
+      <header class="flex justify-between">
+        <h1 class="text-4xl sm:text-5xl font-normal text-black leading-6 hover:font-medium"> ProtyayB<span class="text-green-400">Rants</span>
+        </h1>
+        <h2 class="md:text-2xl text-gray-500 hover:text-gray-700 leading-6 font-medium"> About </h2>
+      </header>
+    </div>
+    <main>
+      <section>
+        
       </section>
       <section>
-      	<div class="max-w-full mt-4 px-20 py-4 mx-auto space-y-6 divide-x divide-gray-200">
-      		<div class="text-6xl text-gray-900 font-extrabold leading-5">
-      			<h2>Latest</h2>
-      		</div>
-      		 <div class="text-gray-500 leading-7 text-xl">All latest life experiences</div>
-      	</div>
-
-      </section>
-    </main>
-  </body>
-</html>
+        <div class="max-w-full px-20 py-4 space-y-4 divide-y divide-gray-300">
+          <div class="mt-4  mx-auto space-y-6">
+            <h2 class="text-6xl text-gray-800 font-extrabold leading-10">
+            Latest
+            </h2>
+            <div class="text-gray-500 leading-10 text-xl">All latest life experiences, and code works</div>
+          </div>
+          <ul class="divide-y divide-gray-300">
+            <li class="py-12">
+              <article class="grid grid-cols-6">
+                <dl>
+                  <dt class="col-start-1 col-span-2"><time datetime="2020-08-23">23<sup>rd</sup>August, 2020</time></dt>
+                </dl>
+                <div class="col-start-2 col-span-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                </div>
+              </article>
+            </li>
+            <li class="py-12">
+              <article class="grid grid-cols-6 items-baseline">
+                <dl class="col-start-1 col-span-2">
+                  <dt class="sr-only">Published on</dt>
+                  <dd class="text-gray-600"><time datetime="2020-08-23">24<sup>th</sup>August, 2020</time></dd>
+                </dl>
+                <div class="col-start-2 col-span-4 space-y-6">
+                  <h3 class="text-gray-900 font-bold text-2xl leading-8 tracking-tight"> Blog Heading </h3>
+                  <div class="space-y-4">
+                    <p class="max-w-none text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                    <div>
+                      <a class="text-teal-600 leading-4 font-mono font-base hover:font-bolder hover:text-teal-700" href="/"> Read More </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </body>
+  </html>
