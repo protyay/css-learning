@@ -7,10 +7,10 @@
   </head>
   <body class="antialiased">
     <div class="max-w-full px-20 py-16 mx-auto">
-      <header class="flex justify-between">
-        <h1 class="text-4xl sm:text-5xl font-normal text-black leading-6 hover:font-medium"> ProtyayB<span class="text-green-400">Rants</span>
+      <header class="flex md:justify-between sm:justify-center">
+        <h1 class="text-6xl font-normal text-black md:leading-8 hover:font-medium sm:leading-10 md:tracking-normal sm:tracking-wider"> Mix<span class="text-green-400">ins</span>
         </h1>
-        <h2 class="md:text-2xl text-gray-500 hover:text-gray-700 leading-6 font-medium"> About </h2>
+        <h2 class="md:text-4xl text-gray-500 hover:text-gray-700 leading-6 font-medium sm:hidden md:block"> About </h2>
       </header>
     </div>
     <main>
@@ -25,18 +25,26 @@
             </h2>
             <div class="text-gray-500 leading-10 text-xl">All latest life experiences, and code works</div>
           </div>
-          <ul class="divide-y divide-gray-300">
+          <ul class="divide-y md:divide-gray-300 sm:divide-gray-500">
             <li class="py-12">
-              <article class="grid grid-cols-6">
+              <article class="grid md:grid-cols-6 items-baseline sm:space-y-6">
                 <dl>
-                  <dt class="col-start-1 col-span-2"><time datetime="2020-08-23">23<sup>rd</sup>August, 2020</time></dt>
+                  <dt class="sr-only">Published on</dt>
+                  <dd class="text-gray-600 col-start-1 col-span-2"><time datetime="2020-08-23">24<sup>th</sup> August, 2020</time></dd>
                 </dl>
-                <div class="col-start-2 col-span-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                <div class="md:col-start-2 md:col-span-4 sm:col-start-1 sm:col-span-2 space-y-6">
+                  <h3 class="text-gray-900 font-bold text-2xl leading-8 tracking-tight"> A really long Blog Heading </h3>
+                  <div class="space-y-6">
+                    <p class="max-w-none text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+                    <div>
+                      <a class="text-teal-600 leading-6 font-base hover:font-bolder hover:text-teal-700 text-base" href="/"> Read More </a>
+                    </div>
+                  </div>
                 </div>
               </article>
             </li>
@@ -47,8 +55,8 @@
                   <dd class="text-gray-600 col-start-1 col-span-2"><time datetime="2020-08-23">24<sup>th</sup>August, 2020</time></dd>
                 </dl>
                 <div class="col-start-2 col-span-4 space-y-6">
-                  <h3 class="text-gray-900 font-bold text-2xl leading-8 tracking-tight"> Blog Heading </h3>
-                  <div class="space-y-4">
+                  <h3 class="text-gray-900 font-bold text-2xl leading-8 tracking-tight"> Blog Another Heading </h3>
+                  <div class="space-y-6">
                     <p class="max-w-none text-gray-700">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -56,7 +64,7 @@
                       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                     proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
                     <div>
-                      <a class="text-teal-600 leading-4 font-mono font-base hover:font-bolder hover:text-teal-700" href="/"> Read More </a>
+                      <a class="text-teal-600 leading-6 font-base hover:font-bolder hover:text-teal-700 text-base" href="/"> Read More </a>
                     </div>
                   </div>
                 </div>
