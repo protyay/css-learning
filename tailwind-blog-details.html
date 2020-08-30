@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tailwind blog Details</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.7.3/tailwind.min.css" class="rel">
+	</head>
+	<body class="antialiased">
+		<div class="max-w-full md:px-20 sm:px-10 py-16 mx-auto">
+			<header class="flex md:justify-between sm:justify-center">
+				<h1 class="text-6xl font-normal text-black md:leading-8 hover:font-medium sm:leading-10 md:tracking-normal sm:tracking-wider"> Mix<span class="text-green-400">ins</span>
+				</h1>
+				<h2 class="md:text-4xl text-gray-500 hover:text-gray-700 leading-6 font-medium sm:hidden md:block"> About </h2>
+			</header>
+		</div>
+		
+		<main class="md:px-20 sm:px-10 divide-y divide-y-gray-300">
+			<div class="flex-col justify-center pb-12">
+				<section class="space-y-4" id="title-section">
+					<h1 class="text-gray-800 font-normal leading-9 text-center">
+					<time datetime="2020-08-28">Tuesday, August 30,2020</time>
+					</h1>
+					<h2 class="leading-6 font-extrabold text-5xl md:text-gray-800 sm:text-gray-700 tracking-tighter text-center sm:text-wrap">
+					Introducing Heroicons.com
+					</h2>
+				</section>
+			</div>
+			<article id="article-details" class="grid grid-col-6 py-12 items-baseline">
+				<div class="col-start-1 col-span-2">
+					<section class="md:flex py-6 md:space-x-4 max-w-md">
+						<figure class="w-16 h-16 max-w-md">
+							<img src="./assets/profile.jpg" class="rounded-full">
+						</figure>
+						<div class="flex-col w-32 h-16 max-w-md">
+							<p>Andrea Roberts</p>
+							<a class="inline-block text-teal-400">@andreaR</a>
+						</div>
+					</section>
+					<section class="md:flex md:flex-col md:space-y-4">
+						<a href="#" class="text-teal-400">Previous Blog</a>
+						<a href="#" class="text-teal-400">Next Blog</a>
+					</section>
+				</div>
+				<div class="col-start-2 col-span-4">
+					<section>
+						Overview section
+					</section>
+					<section>
+						Detailed Section
+					</section>
+					
+				</div>
+			</article>
+		</main>
+	</body>
+</html>
